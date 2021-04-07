@@ -24,6 +24,7 @@ cur.execute('''CREATE TABLE weather_data
    pressure   real DEFAULT NULL)
 ''')
 
+
 print("Table created successfully")
 con.commit()
 con.close()
